@@ -1,11 +1,12 @@
-# TODO: import ...
+import matplotlib.image as mpimg
 import numpy as np
 
 def generate_random_matrix(m, n):
-    return np.rand(m, n)
+    return np.random.randint(m, n)
 
 def save_matrix(matrix, file_name):
-    raise NotImplementedError  # TODO: 删除该行，实现该函数功能
+    mpimg.imsave(file_name, matrix)
+    return
 
 
 if __name__ == "__main__":

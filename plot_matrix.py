@@ -3,7 +3,8 @@ import numpy as np
 
 
 def generate_random_matrix(m, n):
-    return np.random.randint(0,2, size = (m, n))
+    return np.random.randint(0, 2, size=(m, n))
+
 
 def save_matrix(matrix, file_name):
     mpimg.imsave(file_name, matrix)

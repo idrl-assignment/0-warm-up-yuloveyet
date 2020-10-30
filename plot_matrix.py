@@ -13,4 +13,3 @@ def save_matrix(matrix, file_name):
 if __name__ == "__main__":
     matrix = generate_random_matrix(10, 10)
     save_matrix(matrix, "example.jpg")
-

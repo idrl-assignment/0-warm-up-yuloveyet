@@ -1,3 +1,4 @@
+import matplotlib
 import matplotlib.image as mpimg
 import numpy as np
 
@@ -7,7 +8,7 @@ def generate_random_matrix(m, n):
 
 
 def save_matrix(matrix, file_name):
-    mpimg.imsave(file_name, matrix)
+    mpimg.imsave(file_name, matrix, dpi=150)
     return
 
 
